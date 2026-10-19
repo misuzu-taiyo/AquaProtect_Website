@@ -6,47 +6,52 @@
     <title>株式会社アクアプロテクト | 防水工事・外壁改修のプロフェッショナル</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header js-header">
         <div class="header__inner">
-            <h1 class="header__logo"><a href="index.html">AquaProtect</a></h1>
+            <h1 class="header__logo"><a href="index.html">AquaProtect.</a></h1>
             <nav class="header__nav js-nav">
                 <ul class="header__nav-list">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">COMPANY</a></li>
                     <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="recruit.html" class="btn-recruit-nav">RECRUIT</a></li>
+                    <li><a href="recruit.html" class="btn-nav">RECRUIT</a></li>
                 </ul>
             </nav>
-            <button class="header__hamburger js-hamburger">
+            <button class="hamburger js-hamburger">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </header>
 
     <main>
-        <section class="hero" style="background-image: url('images/hero.jpg');">
+        <section class="hero" style="background-image: url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2000&auto=format&fit=crop');">
             <div class="hero__overlay"></div>
-            <div class="hero__content fade-in">
-                <h2 class="hero__title">確かな技術で、<br>建物の未来を守る。</h2>
-                <p class="hero__desc">水と真剣に向き合い、安心な暮らしを提供する防水工事のプロフェッショナル集団</p>
+            <div class="hero__content">
+                <h2 class="hero__title js-fade">確かな技術で、<br>建物の未来を守る。</h2>
+                <p class="hero__desc js-fade">Waterproofing Professional</p>
             </div>
+            <div class="hero__scroll"><span>SCROLL</span></div>
         </section>
 
         <section class="section">
-            <div class="container">
-                <h2 class="section__title fade-in">OUR MISSION<span>私たちの使命</span></h2>
-                <div class="mission fade-in">
+            <div class="container container--small">
+                <div class="section-title js-fade">
+                    <span class="section-title__en">OUR MISSION</span>
+                    <h2 class="section-title__ja">私たちの使命</h2>
+                </div>
+                <div class="mission js-fade">
                     <p class="mission__text">
-                        雨水や湿気から建物を守ることは、そこに住む人々、働く人々の「安心」を守ること。<br>
-                        私たちは最新の防水技術と、長年の経験に裏打ちされた確かな施工力で、<br>
+                        雨水や湿気から建物を守ることは、<br class="u-hide-sp">
+                        そこに住む人々、働く人々の「安心」を守ること。<br>
+                        私たちは最新の防水技術と、長年の経験に裏打ちされた確かな施工力で、<br class="u-hide-sp">
                         大切な資産である建物の長寿命化に貢献します。
                     </p>
-                    <div class="mission__btn-wrapper">
-                        <a href="about.html" class="btn">会社概要を見る</a>
+                    <div class="u-text-center mt-40">
+                        <a href="about.html" class="btn btn--outline"><span>会社概要を見る</span></a>
                     </div>
                 </div>
             </div>
@@ -54,42 +59,52 @@
 
         <section class="section bg-light">
             <div class="container">
-                <h2 class="section__title fade-in">SERVICES<span>事業内容</span></h2>
+                <div class="section-title js-fade">
+                    <span class="section-title__en">SERVICES</span>
+                    <h2 class="section-title__ja">事業内容</h2>
+                </div>
                 <div class="cards">
-                    <div class="card fade-in">
-                        <div class="card__img" style="background-color: #ddd;"></div>
+                    <div class="card js-fade">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop" alt="ウレタン防水" class="card__img">
+                        </div>
                         <div class="card__body">
                             <h3 class="card__title">ウレタン防水工事</h3>
                             <p class="card__text">複雑な形状の屋上やベランダに最適なシームレスな防水層を形成します。</p>
                         </div>
                     </div>
-                    <div class="card fade-in" style="transition-delay: 0.2s;">
-                        <div class="card__img" style="background-color: #ddd;"></div>
+                    <div class="card js-fade" style="transition-delay: 0.1s;">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1541888086925-ebbcacd39e55?q=80&w=800&auto=format&fit=crop" alt="塩ビシート防水" class="card__img">
+                        </div>
                         <div class="card__body">
                             <h3 class="card__title">塩ビシート防水</h3>
                             <p class="card__text">広い面積の屋上等に。耐久性と意匠性に優れたシート防水工事です。</p>
                         </div>
                     </div>
-                    <div class="card fade-in" style="transition-delay: 0.4s;">
-                        <div class="card__img" style="background-color: #ddd;"></div>
+                    <div class="card js-fade" style="transition-delay: 0.2s;">
+                        <div class="card__img-wrap">
+                            <img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=800&auto=format&fit=crop" alt="外壁シーリング" class="card__img">
+                        </div>
                         <div class="card__body">
                             <h3 class="card__title">外壁シーリング改修</h3>
                             <p class="card__text">外壁の目地やサッシ廻りの防水性を回復させ、雨漏りを未然に防ぎます。</p>
                         </div>
                     </div>
                 </div>
-                <div class="mission__btn-wrapper" style="margin-top: 40px; text-align: center;">
-                    <a href="services.html" class="btn">事業内容の詳細</a>
+                <div class="u-text-center mt-60">
+                    <a href="services.html" class="btn"><span>事業内容の詳細</span></a>
                 </div>
             </div>
         </section>
 
-        <section class="section recruit-banner fade-in" style="background-image: url('images/recruit-bg.jpg');">
+        <section class="recruit-banner js-fade" style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2000&auto=format&fit=crop');">
             <div class="recruit-banner__overlay"></div>
             <div class="recruit-banner__content">
-                <h2>共に、プロフェッショナルへ。</h2>
-                <p>未経験から一生モノの技術を。アクアプロテクトでは新しい仲間を募集しています。</p>
-                <a href="recruit.html" class="btn btn--white">採用情報を見る</a>
+                <span class="recruit-banner__en">RECRUIT</span>
+                <h2 class="recruit-banner__ja">共に、プロフェッショナルへ。</h2>
+                <p class="recruit-banner__text">未経験から一生モノの技術を。<br class="u-hide-pc">アクアプロテクトでは新しい仲間を募集しています。</p>
+                <a href="recruit.html" class="btn btn--white"><span>採用情報を見る</span></a>
             </div>
         </section>
     </main>
@@ -97,20 +112,22 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <div class="footer__info">
-                    <h2>AquaProtect</h2>
-                    <p>〒100-0000 東京都千代田区〇〇1-2-3</p>
-                    <p>TEL: 03-0000-0000</p>
+                <div class="footer__col">
+                    <h2 class="footer__logo">AquaProtect.</h2>
+                    <p class="footer__address">〒100-0000 東京都千代田区〇〇1-2-3</p>
+                    <p class="footer__tel">TEL: 03-0000-0000</p>
                 </div>
-                <ul class="footer__nav">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">COMPANY</a></li>
-                    <li><a href="services.html">SERVICES</a></li>
-                    <li><a href="recruit.html">RECRUIT</a></li>
-                </ul>
+                <div class="footer__col">
+                    <ul class="footer__nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">COMPANY</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="recruit.html">RECRUIT</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer__copy">
-                &copy; 2026 AquaProtect Co., Ltd. All Rights Reserved.
+            <div class="footer__bottom">
+                <small>&copy; 2026 AquaProtect Co., Ltd. All Rights Reserved.</small>
             </div>
         </div>
     </footer>

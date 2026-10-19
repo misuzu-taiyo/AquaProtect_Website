@@ -4,50 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>事業内容 | 株式会社アクアプロテクト</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header js-header">
         <div class="header__inner">
-            <h1 class="header__logo"><a href="index.html">AquaProtect</a></h1>
+            <h1 class="header__logo"><a href="index.html">AquaProtect.</a></h1>
             <nav class="header__nav js-nav">
                 <ul class="header__nav-list">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="about.html">COMPANY</a></li>
                     <li><a href="services.html" class="is-active">SERVICES</a></li>
-                    <li><a href="recruit.html" class="btn-recruit-nav">RECRUIT</a></li>
+                    <li><a href="recruit.html" class="btn-nav">RECRUIT</a></li>
                 </ul>
             </nav>
-            <button class="header__hamburger js-hamburger"><span></span><span></span><span></span></button>
+            <button class="hamburger js-hamburger"><span></span><span></span><span></span></button>
         </div>
     </header>
 
-    <div class="page-header">
-        <div class="page-header__inner">
-            <h1 class="fade-in">SERVICES<span>事業内容</span></h1>
+    <div class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2000&auto=format&fit=crop');">
+        <div class="page-hero__overlay"></div>
+        <div class="page-hero__content js-fade">
+            <h1 class="page-hero__en">SERVICES</h1>
+            <span class="page-hero__ja">事業内容</span>
         </div>
     </div>
 
-    <main>
+    <main class="page-main">
         <section class="section">
             <div class="container">
-                <div class="service-item fade-in">
-                    <div class="service-item__text">
-                        <h3>ウレタン防水</h3>
-                        <p>液状のウレタン樹脂を塗布して防水層を形成する工法です。複雑な形状の場所でもシームレスで美しい仕上がりが可能で、屋上からバルコニーまで幅広く対応します。</p>
+                <div class="service-row js-fade">
+                    <div class="service-row__img">
+                        <img src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop" alt="ウレタン防水">
+                    </div>
+                    <div class="service-row__content">
+                        <span class="service-row__num">01</span>
+                        <h3 class="service-row__title">ウレタン防水工事</h3>
+                        <p class="service-row__text">液状のウレタン樹脂を塗布して防水層を形成する工法です。複雑な形状の場所でもシームレスで美しい仕上がりが可能で、屋上からバルコニーまで幅広く対応します。歩行用・非歩行用など用途に応じた施工が可能です。</p>
                     </div>
                 </div>
-                <div class="service-item service-item--reverse fade-in">
-                    <div class="service-item__text">
-                        <h3>塩ビシート防水</h3>
-                        <p>塩化ビニル樹脂製の防水シートを接着または機械固定で張り付ける工法です。耐久性に優れ、マンションの屋上など広い面積の施工に適しています。</p>
+
+                <div class="service-row service-row--reverse js-fade">
+                    <div class="service-row__img">
+                        <img src="https://images.unsplash.com/photo-1541888086925-ebbcacd39e55?q=80&w=800&auto=format&fit=crop" alt="塩ビシート防水">
+                    </div>
+                    <div class="service-row__content">
+                        <span class="service-row__num">02</span>
+                        <h3 class="service-row__title">塩ビシート防水</h3>
+                        <p class="service-row__text">塩化ビニル樹脂製の防水シートを接着または機械固定で張り付ける工法です。耐久性に優れ、マンションの屋上など広い面積の施工に適しています。既存の防水層の上から被せて施工できるケースが多く、改修工事で力を発揮します。</p>
                     </div>
                 </div>
-                <div class="service-item fade-in">
-                    <div class="service-item__text">
-                        <h3>シーリング工事</h3>
-                        <p>外壁のボードのつなぎ目や、サッシ周りの隙間をシーリング材で埋める工事です。建物の水密性・気密性を保つために非常に重要な役割を果たします。</p>
+
+                <div class="service-row js-fade">
+                    <div class="service-row__img">
+                        <img src="https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?q=80&w=800&auto=format&fit=crop" alt="シーリング工事">
+                    </div>
+                    <div class="service-row__content">
+                        <span class="service-row__num">03</span>
+                        <h3 class="service-row__title">シーリング工事</h3>
+                        <p class="service-row__text">外壁のボードのつなぎ目や、サッシ周りの隙間をシーリング材で埋める工事です。建物の水密性・気密性を保つために非常に重要な役割を果たします。紫外線による劣化が避けられないため、定期的な打ち替えを推奨しています。</p>
                     </div>
                 </div>
             </div>
@@ -56,7 +74,9 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer__copy">&copy; 2026 AquaProtect Co., Ltd.</div>
+            <div class="footer__bottom" style="margin-top:0; border-top:none;">
+                <small>&copy; 2026 AquaProtect Co., Ltd. All Rights Reserved.</small>
+            </div>
         </div>
     </footer>
     <script src="js/script.js"></script>
